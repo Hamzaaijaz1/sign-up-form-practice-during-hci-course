@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="classform.css">
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>SIGN UP</h1>
+        <div class="formal">
+            <form action="backend.php">
+                <label for="name">NAME:</label>
+                <input type="text" id="name" placeholder="ENTER YOUR NAME"><br>
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" placeholder="ENTER YOUR EMAIL"><br>
+                <label for="pw">PASSWORD</label>
+                <input type="password" id="pw" placeholder="ENTER YOUR PASSWORD"><br>
+                <label for="cn"> CONTACT NUMBER :</label>
+                <input type="contact number" id="cn" placeholder="CONATACT NUMBER"><br>
+                <div class="check">
+                    JOB HOLDER<input type="checkbox" name="job holder" id="">
+                    OWN A BUSINESS<input type="checkbox" name="Own a business" id="">
+                </div>
+                <div class="radio">MALE<input type="radio" value="MALE" name="GENDER">
+                    FEMALE<input type="radio" value="FEMALE" name="GENDER">
+                    OTHER<input type="radio" value="OTHER" name="GENDER"></div>
+                <div class="btn"><input type="submit" value="submit"></div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
